@@ -4,6 +4,7 @@ This is a practical, copy-paste guide for running **SFT + eval** and deploying a
 
 You can run commands either as:
 - `tinker-tailor ...` (preferred)
+- `tt ...` (short alias)
 - `python -m llm_tuner.cli ...` (equivalent fallback)
 
 ---

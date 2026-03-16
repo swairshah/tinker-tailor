@@ -39,12 +39,16 @@ pip install -e .
 
 ## Single CLI entrypoint
 
-Everything is triggered from one CLI:
+Everything is triggered from one CLI implementation, with multiple command aliases:
 
 ```bash
 python -m llm_tuner.cli --help
 # or after install:
 llm-tuner --help
+# preferred brand alias:
+tinker-tailor --help
+# short alias:
+tt --help
 ```
 
 ## `config.py` support (sft-rl-pipeline compatible)
