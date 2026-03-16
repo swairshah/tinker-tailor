@@ -33,3 +33,8 @@ Thumbs.db
 wandb/
 
 runs/
+.pytest_cache/
+
+# Generated local datasets (keep source/prep scripts, not outputs)
+data/codealpaca_sft_*.jsonl
+data/no_robots_sft_*.jsonl
