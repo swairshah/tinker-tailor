@@ -20,7 +20,7 @@ class SFTRunResult:
     sampler_path: str
 
 
-def run_sft(config: SFTConfig, log_dir: str | Path) -> SFTRunResult:
+def run_sft(*, config: SFTConfig, log_dir: str | Path) -> SFTRunResult:
     log_dir = str(log_dir)
 
     common = ChatDatasetBuilderCommonConfig(

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
@@ -43,8 +43,8 @@ def run_full_pipeline(config: PipelineConfig) -> PipelineResult:
     ensure_model_available(config.sft.model_name, base_url=config.sft.base_url)
     run_dir, sft_log_dir, rl_log_dir = build_run_dirs(config)
 
-    sft_result = run_sft(config.sft, sft_log_dir)
-    rl_result = run_rl(config.rl, rl_log_dir, sft_result.state_path)
+    sft_result = run_sft(config=config.sft, log_dir=sft_log_dir)
+    rl_result = run_rl(config=config.rl, log_dir=rl_log_dir, load_checkpoint_path=sft_result.state_path)
 
     adapter_archive = None
     adapter_dir = None

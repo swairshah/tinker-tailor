@@ -1,0 +1,44 @@
+"""Optional llm-tuner CLI config.
+
+Usage:
+  python -m llm_tuner.cli pipeline --config config.py
+
+Copy this file to `config.py` and edit values.
+CLI flags always override config.py values.
+"""
+
+# Model
+model = "Qwen/Qwen3.5-4B"
+renderer_name = "qwen3_5_disable_thinking"
+lora_rank = 32
+
+# SFT
+sft_dataset = "data/sft_conversations.jsonl"  # also supports "no_robots"
+sft_lr = 2e-4
+sft_batch_size = 64
+sft_max_length = 4096
+sft_epochs = 1
+sft_max_steps = 20
+sft_save_every = 5
+
+# RL
+rl_env = "arithmetic"  # arithmetic | gsm8k | math | polaris | deepmath
+rl_lr = 1e-5
+rl_group_size = 4
+rl_groups_per_batch = 32
+rl_max_tokens = 64
+rl_max_steps = 30
+rl_save_every = 5
+
+# Logging
+wandb_project = None
+wandb_exe_project = None
+wandb_exe_url = "https://wandb.exe.xyz:8000"
+
+# Paths
+output_root = "runs"
+run_name = None
+
+# Optional
+base_url = None
+# from_checkpoint = "tinker://..."  # for `llm_tuner.cli rl`

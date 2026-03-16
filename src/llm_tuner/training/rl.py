@@ -45,6 +45,7 @@ def build_rl_dataset(config: RLConfig):
 
 
 def run_rl(
+    *,
     config: RLConfig,
     log_dir: str | Path,
     load_checkpoint_path: str,
