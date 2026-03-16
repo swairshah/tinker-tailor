@@ -1,0 +1,40 @@
+{"messages":[{"role":"system","content":"You are a concise and accurate math tutor."},{"role":"user","content":"What is 12 + 19?"},{"role":"assistant","content":"12 + 19 = 31."}]}
+{"messages":[{"role":"user","content":"Solve: 45 - 17"},{"role":"assistant","content":"45 - 17 = 28."}]}
+{"messages":[{"role":"user","content":"Compute 8 * 7"},{"role":"assistant","content":"8 * 7 = 56."}]}
+{"messages":[{"role":"user","content":"What is 81 / 9?"},{"role":"assistant","content":"81 / 9 = 9."}]}
+{"messages":[{"role":"user","content":"Find 23 + 58"},{"role":"assistant","content":"23 + 58 = 81."}]}
+{"messages":[{"role":"user","content":"What is 100 - 36?"},{"role":"assistant","content":"100 - 36 = 64."}]}
+{"messages":[{"role":"user","content":"Compute 14 * 6"},{"role":"assistant","content":"14 * 6 = 84."}]}
+{"messages":[{"role":"user","content":"What is 144 / 12?"},{"role":"assistant","content":"144 / 12 = 12."}]}
+{"messages":[{"role":"user","content":"Simplify: 9 + 8 + 7"},{"role":"assistant","content":"9 + 8 + 7 = 24."}]}
+{"messages":[{"role":"user","content":"What is 75 - 29?"},{"role":"assistant","content":"75 - 29 = 46."}]}
+{"messages":[{"role":"user","content":"Compute 13 * 5"},{"role":"assistant","content":"13 * 5 = 65."}]}
+{"messages":[{"role":"user","content":"Find 63 / 7"},{"role":"assistant","content":"63 / 7 = 9."}]}
+{"messages":[{"role":"user","content":"What is 2^5?"},{"role":"assistant","content":"2^5 = 32."}]}
+{"messages":[{"role":"user","content":"What is 11^2?"},{"role":"assistant","content":"11^2 = 121."}]}
+{"messages":[{"role":"user","content":"Compute 1/2 + 1/3"},{"role":"assistant","content":"1/2 + 1/3 = 5/6."}]}
+{"messages":[{"role":"user","content":"Convert 0.75 to a fraction"},{"role":"assistant","content":"0.75 = 3/4."}]}
+{"messages":[{"role":"user","content":"What is 15% of 200?"},{"role":"assistant","content":"15% of 200 is 30."}]}
+{"messages":[{"role":"user","content":"Find the average of 2, 4, 6, 8"},{"role":"assistant","content":"The average is (2 + 4 + 6 + 8) / 4 = 5."}]}
+{"messages":[{"role":"user","content":"What is the perimeter of a square with side 9?"},{"role":"assistant","content":"Perimeter = 4 * 9 = 36."}]}
+{"messages":[{"role":"user","content":"Area of a rectangle with width 7 and height 3?"},{"role":"assistant","content":"Area = 7 * 3 = 21."}]}
+{"messages":[{"role":"user","content":"If x + 5 = 14, what is x?"},{"role":"assistant","content":"x = 14 - 5 = 9."}]}
+{"messages":[{"role":"user","content":"If 3x = 27, solve for x"},{"role":"assistant","content":"x = 27 / 3 = 9."}]}
+{"messages":[{"role":"user","content":"What is 0.2 + 0.35?"},{"role":"assistant","content":"0.2 + 0.35 = 0.55."}]}
+{"messages":[{"role":"user","content":"Round 47.6 to the nearest integer"},{"role":"assistant","content":"47.6 rounds to 48."}]}
+{"messages":[{"role":"user","content":"What is 9!"},{"role":"assistant","content":"9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 362880."}]}
+{"messages":[{"role":"user","content":"Find gcd(18, 24)"},{"role":"assistant","content":"gcd(18, 24) = 6."}]}
+{"messages":[{"role":"user","content":"Find lcm(6, 8)"},{"role":"assistant","content":"lcm(6, 8) = 24."}]}
+{"messages":[{"role":"user","content":"What is 7 + 13 - 4?"},{"role":"assistant","content":"7 + 13 - 4 = 16."}]}
+{"messages":[{"role":"user","content":"Compute 18 * 3 - 5"},{"role":"assistant","content":"18 * 3 - 5 = 54 - 5 = 49."}]}
+{"messages":[{"role":"user","content":"What is the next prime after 29?"},{"role":"assistant","content":"The next prime after 29 is 31."}]}
+{"messages":[{"role":"user","content":"Is 91 prime?"},{"role":"assistant","content":"No. 91 = 7 * 13, so it is composite."}]}
+{"messages":[{"role":"user","content":"What is | -14 | ?"},{"role":"assistant","content":"|-14| = 14."}]}
+{"messages":[{"role":"user","content":"Compute 5^3"},{"role":"assistant","content":"5^3 = 125."}]}
+{"messages":[{"role":"user","content":"A train goes 60 miles in 1.5 hours. What is the speed?"},{"role":"assistant","content":"Speed = distance / time = 60 / 1.5 = 40 mph."}]}
+{"messages":[{"role":"user","content":"What is 3/4 of 80?"},{"role":"assistant","content":"3/4 of 80 is 60."}]}
+{"messages":[{"role":"user","content":"What is 125% of 40?"},{"role":"assistant","content":"125% of 40 is 50."}]}
+{"messages":[{"role":"user","content":"Simplify 36/54"},{"role":"assistant","content":"36/54 simplifies to 2/3."}]}
+{"messages":[{"role":"user","content":"What is 50 - (12 + 8)?"},{"role":"assistant","content":"50 - (12 + 8) = 50 - 20 = 30."}]}
+{"messages":[{"role":"user","content":"Compute 9 * (4 + 1)"},{"role":"assistant","content":"9 * (4 + 1) = 9 * 5 = 45."}]}
+{"messages":[{"role":"user","content":"If y/4 = 11, what is y?"},{"role":"assistant","content":"y = 44."}]}
