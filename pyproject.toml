@@ -25,6 +25,7 @@ modal = [
 
 [project.scripts]
 llm-tuner = "llm_tuner.cli:main"
+tinker-tailor = "llm_tuner.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
